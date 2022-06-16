@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Featured from '../components/Featured';
-import ProductList from '../components/productList';
+import ProductList from '../components/ProductList';
 
 
 
@@ -14,8 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      <div>
-     <Featured />
-     
+     <Featured />     
      <ProductList />
      </div>
 
